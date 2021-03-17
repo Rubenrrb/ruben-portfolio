@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+body {
+  // background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+    & html {
+      overflow: hidden;
+    }
+    .container-header {
+      background-color: #1B2432;
+    }
+}
+
+.banner {
+height: 100vh;
+
+}
+
+.container-header {
+  width: 100%;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact-footer {
+  background-color: #FFD046;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-footer {
+  font-size: 32px;
+  transition: 1s;
+    a {
+      color:rgba(0, 0, 0, 0.3)
+    }
+}
+
+.fas.fa-envelope {
+  transition: 1s;
+}
+
+.fab.fa-github {
+  transition: 1s;
+}
+
+.fab.fa-linkedin {
+  transition: 1s;
+}
+
+.fab.fa-instagram {
+  transition: 1s;
+}
+
+.fas.fa-envelope:hover {
+  color: #4674c4;
+  opacity: 1;
+  transition: 1s;
+}
+
+.fab.fa-github:hover {
+  color: #4674c4;
+  opacity: 1;
+  transition: 1s;
+}
+
+.fab.fa-linkedin:hover {
+  color: #4674c4;
+  opacity: 1;
+  transition: 1s;
+}
+
+.fab.fa-instagram:hover {
+  color: #4674c4;
+  opacity: 1;
+  transition: 1s;
+}
