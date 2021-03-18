@@ -154,9 +154,7 @@ figure.snip0057.hover:before {
   #column {
     max-width: 100%;
   }
-  .figure.snip0057 .image img {
-    left: -93%;
-  }
+
   figure.snip0057 figcaption p {
     font-size: 0.7em;
   }
@@ -167,3 +165,13 @@ figure.snip0057.hover:before {
 
 }
 
+@media (max-width: 600px) {
+  figure.snip0057 .image img {
+    position: relative;
+    display: block;
+    left: -82%;
+    transform: skew( 15deg);
+}
+
+
+}
