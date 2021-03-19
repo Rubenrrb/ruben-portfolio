@@ -1,6 +1,6 @@
 # General config
 # http://localhost:4567/__middleman
-activate :metaman, host: 'https://www.rubenrubilar.com'
+activate :metaman, host: 'https://domain.com'
 
 # Import custom libraries and helpers
 Dir['./*/*.rb'].each { |file| load file }
