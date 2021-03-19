@@ -1,3 +1,6 @@
-{ og: { title: 'Ruben Rubilar' } }
-{ og: { description: 'Welcome to my Portfolio, you can find my contacts details and my projects here, thanks for the visit!' } }
-{ og: { image: 'yo.jpg' } }
+
+meta_product_name: "Ruben Rubilar"
+meta_title: "Ruben Rubilar - Portfolio"
+meta_description: "Welcome to my Portfolio, you can find my contacts details and my projects here, thanks for the visit!"
+meta_image: "yo.jpg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
